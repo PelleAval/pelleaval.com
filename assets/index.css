@@ -1,44 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+P {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: black;
 }
 
-.main {
+.pa-main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.pa-f1-bg-con {
     display: flex;
     width: 100%;
     height: 100vh;
     filter: blur(120px);
 }
 
-.a-left {
+.pa-left {
+    animation: pa-change-bg 5s linear infinite;
     clip-path: polygon(29% 1%, 48% 32%, 97% 46%, 90% 80%, 55% 86%, 33% 99%, 6% 90%, 12% 65%, 0% 52%, 6% 24%, 2% 1%);
     width: 50%;
     height: 100vh;
-    background: linear-gradient(153deg, rgba(241,101,196,1) 0%, rgba(137,90,210,1) 36%, rgba(45,69,219,1) 71%, rgba(12,32,155,1) 100%);
+    background-size: 300% 300%;
+    background-image: linear-gradient(153deg, rgba(241,101,196,1) 0%, rgba(137,90,210,1) 36%, rgba(45,69,219,1) 71%, rgba(12,32,155,1) 100%);
 }
 
-.a-right {
+.pa-right {
+    animation: pa-change-bg 5s linear infinite;
     clip-path: polygon(37% 14%, 89% 28%, 100% 46%, 100% 89%, 100% 100%, 44% 100%, 34% 81%, 44% 67%, 10% 56%, 2% 39%, 11% 20%);
     width: 50%;
     height: 100vh;
-    background: linear-gradient(153deg, rgba(12,32,155,1) 0%, rgba(45,69,219,1) 29%, rgba(137,90,210,1) 70%, rgba(241,101,196,1) 100%);
-    -webkit-animation: a-right-bg-animation 1s ease infinite;
-    -moz-animation: a-right-bg-animation 1s ease infinite;
-    animation: a-right-bg-animation 1s ease infinite;
-    animation-play-state: running;
+    background-size: 300% 300%;
+    background-image: linear-gradient(153deg, rgba(12,32,155,1) 0%, rgba(45,69,219,1) 29%, rgba(137,90,210,1) 70%, rgba(241,101,196,1) 100%);
 }
 
-@-webkit-keyframes a-right-bg-animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+.pa-f1-txt-box-con {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-@-moz-keyframes a-right-bg-animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+.pa-f1-title h1 {
+    font-weight: 500;
+    font-size: 45px;
 }
-@keyframes a-right-bg-animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+.pa-f1-sub-con {
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
+
+.pa-f1-loading-con {
+    margin-top: 20px;
+}
+
+/* ---------- Key Frames ---------- */
+
+@keyframes pa-change-bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+/* ---------- Key Frames ---------- */
+/* ---------- GLOBAL STYLES ---------- */
+
+.pa-white {
+    color: #ffffff;
+}
+
+.pa-mon {
+    font-family: Montserrat;
+}
+
+.pa-Inter {
+    font-family: Inter;
+}
+
+/* ---------- GLOBAL STYLES ---------- */
+/* ---------- Jquery CSS ---------- */
+
+.dot {
+    background: rgb(255, 255, 255);
+    float: left;
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    border-radius: 50%;
+    opacity: 0.2;
+  }
+
+/* ---------- Jquery CSS ---------- */
+/* ---------- Fonts ---------- */
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    src:
+      url("Fonts/Montserrat/Montserrat-ExtraLight.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 200;
+    src:
+      url("Fonts/Montserrat/Montserrat-Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    src:
+      url("Fonts/Montserrat/Montserrat-Thin.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    src:
+      url("Fonts/Montserrat/Montserrat-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    src:
+      url("Fonts/Montserrat/Montserrat-Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    src:
+      url("Fonts/Montserrat/Montserrat-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    src:
+      url("Fonts/Montserrat/Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    src:
+      url("Fonts/Montserrat/Montserrat-ExtraBold.ttf") format("opentype");
+}
+
+
+
+/* Inter Font */
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 100;
+    src:
+      url("Fonts/Inter/Inter ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 200;
+    src:
+      url("Fonts/Inter/Inter Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 300;
+    src:
+      url("Fonts/Inter/Inter Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src:
+      url("Fonts/Inter/Inter Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    src:
+      url("Fonts/Inter/Inter SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    src:
+      url("Fonts/Inter/Inter\ Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src:
+      url("Fonts/Inter/Inter ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 800;
+    src:
+      url("Fonts/Inter/Inter ExtraBold.otf.otf") format("opentype");
+}
+
+
+/* ---------- Fonts ---------- */
