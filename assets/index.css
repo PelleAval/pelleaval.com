@@ -97,11 +97,11 @@ body {
 }
 
 .pa-mon {
-    font-family: Montserrat;
+    font-family: montserrat;
 }
 
-.pa-Inter {
-    font-family: Inter;
+.pa-inter {
+    font-family: inter;
 }
 
 /* ---------- GLOBAL STYLES ---------- */
@@ -121,119 +121,119 @@ body {
 /* ---------- Fonts ---------- */
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 100;
     src:
-      url("Fonts/Montserrat/Montserrat-ExtraLight.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-ExtraLight.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 200;
     src:
-      url("Fonts/Montserrat/Montserrat-Light.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-Light.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 300;
     src:
-      url("Fonts/Montserrat/Montserrat-Thin.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-Thin.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 400;
     src:
-      url("Fonts/Montserrat/Montserrat-Regular.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-Regular.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 500;
     src:
-      url("Fonts/Montserrat/Montserrat-Medium.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-Medium.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 600;
     src:
-      url("Fonts/Montserrat/Montserrat-SemiBold.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-SemiBold.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 700;
     src:
-      url("Fonts/Montserrat/Montserrat-Bold.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-Bold.ttf") format("opentype");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "montserrat";
     font-weight: 800;
     src:
-      url("Fonts/Montserrat/Montserrat-ExtraBold.ttf") format("opentype");
+      url("fonts/montserrat/montserrat-ExtraBold.ttf") format("opentype");
 }
 
 
 
-/* Inter Font */
+/* inter Font */
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 100;
     src:
-      url("Fonts/Inter/Inter ExtraLight.otf") format("opentype");
+      url("fonts/inter/inter ExtraLight.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 200;
     src:
-      url("Fonts/Inter/Inter Light.otf") format("opentype");
+      url("fonts/inter/inter Light.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 300;
     src:
-      url("Fonts/Inter/Inter Medium.otf") format("opentype");
+      url("fonts/inter/inter Medium.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 400;
     src:
-      url("Fonts/Inter/Inter Regular.otf") format("opentype");
+      url("fonts/inter/inter Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 500;
     src:
-      url("Fonts/Inter/Inter SemiBold.otf") format("opentype");
+      url("fonts/inter/inter SemiBold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 600;
     src:
-      url("Fonts/Inter/Inter\ Bold.otf") format("opentype");
+      url("fonts/inter/inter\ Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 700;
     src:
-      url("Fonts/Inter/Inter ExtraBold.otf") format("opentype");
+      url("fonts/inter/inter ExtraBold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "inter";
     font-weight: 800;
     src:
-      url("Fonts/Inter/Inter ExtraBold.otf.otf") format("opentype");
+      url("fonts/inter/inter ExtraBold.otf.otf") format("opentype");
 }
 
 
