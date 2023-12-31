@@ -35,7 +35,7 @@ body {
     width: 50%;
     height: 100vh;
     background-size: 200% 200%;
-    transform: scale(1.4);
+    transform: scale(1.3);
     background-image: linear-gradient(153deg, rgba(241,101,196,1) 0%, rgba(137,90,210,1) 36%, rgba(45,69,219,1) 71%, rgba(12,32,155,1) 100%);
 }
 
@@ -45,7 +45,7 @@ body {
     width: 50%;
     height: 100vh;
     background-size: 200% 200%;
-    transform: scale(1.4);
+    transform: scale(1.3);
     background-image: linear-gradient(153deg, rgba(12,32,155,1) 0%, rgba(45,69,219,1) 29%, rgba(137,90,210,1) 70%, rgba(241,101,196,1) 100%);
 }
 
