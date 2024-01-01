@@ -184,35 +184,35 @@ body {
     font-family: "inter";
     font-weight: 100;
     src:
-      url("/assets/fonts/inter/inter ExtraLight.otf") format("opentype");
+      url("/assets/fonts/inter/inter-ExtraLight.otf") format("opentype");
 }
 
 @font-face {
     font-family: "inter";
     font-weight: 200;
     src:
-      url("/assets/fonts/inter/inter Light.otf") format("opentype");
+      url("/assets/fonts/inter/inter-Light.otf") format("opentype");
 }
 
 @font-face {
     font-family: "inter";
     font-weight: 300;
     src:
-      url("/assets/fonts/inter/inter Medium.otf") format("opentype");
+      url("/assets/fonts/inter/inter-Medium.otf") format("opentype");
 }
 
 @font-face {
     font-family: "inter";
     font-weight: 400;
     src:
-      url("/assets/fonts/inter/inter Regular.otf") format("opentype");
+      url("/assets/fonts/inter/inter-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "inter";
     font-weight: 500;
     src:
-      url("/assets/fonts/inter/inter SemiBold.otf") format("opentype");
+      url("/assets/fonts/inter/inter-SemiBold.otf") format("opentype");
 }
 
 @font-face {
@@ -226,14 +226,14 @@ body {
     font-family: "inter";
     font-weight: 700;
     src:
-      url("/assets/fonts/inter/inter ExtraBold.otf") format("opentype");
+      url("/assets/fonts/inter/inter-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "inter";
     font-weight: 800;
     src:
-      url("/assets/fonts/inter/inter ExtraBold.otf.otf") format("opentype");
+      url("/assets/fonts/inter/inter-ExtraBold.otf.otf") format("opentype");
 }
 
 
