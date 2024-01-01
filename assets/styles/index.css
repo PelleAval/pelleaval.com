@@ -74,6 +74,34 @@ body {
     margin-top: 20px;
 }
 
+.pa-f1-loading-dots {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0px 3px;
+}
+
+.dot-1 {
+    animation: loaing-dots 2s linear infinite;
+}
+
+.dot-2 {
+    animation: loaing-dots 2s linear infinite;
+    animation-delay: 300ms;
+}
+
+.dot-3 {
+    animation: loaing-dots 2s linear infinite;
+    animation-delay: 600ms;
+}
+
+.pa-f1-loading-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ---------- Key Frames ---------- */
 
 @keyframes pa-change-bg {
@@ -85,6 +113,18 @@ body {
     }
     100% {
         background-position: 0% 0%;
+    }
+}
+
+@keyframes loaing-dots {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -219,7 +259,7 @@ body {
     font-family: "inter";
     font-weight: 600;
     src:
-      url("/assets/fonts/inter/inter/Bold.otf") format("opentype");
+      url("/assets/fonts/inter/inter/inter-Bold.otf") format("opentype");
 }
 
 @font-face {
